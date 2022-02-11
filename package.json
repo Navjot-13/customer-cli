@@ -1,0 +1,24 @@
+{
+  "name": "customer-cli",
+  "version": "1.0.0",
+  "description": "customer cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Navjot-13/customer-cli.git"
+  },
+  "author": "Navjot Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Navjot-13/customer-cli/issues"
+  },
+  "homepage": "https://github.com/Navjot-13/customer-cli#readme",
+  "dependencies": {
+    "commander": "^9.0.0",
+    "inquirer": "^8.2.0",
+    "mogoose": "^0.0.1-security"
+  }
+}
