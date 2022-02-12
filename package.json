@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "customer cli",
   "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./commands.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +21,6 @@
   "dependencies": {
     "commander": "^9.0.0",
     "inquirer": "^8.2.0",
-    "mogoose": "^0.0.1-security",
     "mongoose": "^6.2.1"
   }
 }
