@@ -19,6 +19,7 @@
   "dependencies": {
     "commander": "^9.0.0",
     "inquirer": "^8.2.0",
-    "mogoose": "^0.0.1-security"
+    "mogoose": "^0.0.1-security",
+    "mongoose": "^6.2.1"
   }
 }
